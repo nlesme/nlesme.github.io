@@ -5,8 +5,11 @@
 The portfolio is structured in the following pages:
 
 🏠 Home: Home page where I give a brief welcome and present my work.
+
 ☝️ About Me: Page dedicated to my biography, my skills and experience.
+
 📋 Projects: Page where my most outstanding projects are shown, with links to GitHub repositories and live demos if available.
+
 📞 Contact: Page with information to contact me, including forms or links to social networks.
 
 ## Technologies Used
