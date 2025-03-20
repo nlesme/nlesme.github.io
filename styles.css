@@ -1,0 +1,139 @@
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.3s;
+}
+
+.scroll-top:hover {
+    background-color: #ef9013;
+}
+
+.navbar-custom, .btn-custom {
+    background-color: #ef9013;
+    font-family: 'Roboto', sans-serif;;
+}
+
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+}
+
+/*section hero*/
+.hero {
+    display: flex;
+    
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    max-width: auto;
+    width: 100%;
+}
+.profile-img {
+    width: auto;
+    height: 500px;
+    margin: 30px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+h1, h2, h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+}
+
+.projects, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.highlight, h2 {
+    color: #ef9013;
+    font-weight: bold;
+}
+
+.name {
+    color: black;
+    font-weight: bold;
+}
+
+p, .form {
+    font-size: 1.2rem;
+    color: #333;
+    font-family: 'Roboto', sans;
+}
+
+.btn-custom {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: transparent;
+    transition: background 0.3s;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #cc740f;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.icon img:hover {
+    transform: scale(1.2);
+}
+
+.card-body {
+    font-size: 1.5rem;
+}
+
+.footer {
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.p-footer{
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+    flex: 1;
+}
